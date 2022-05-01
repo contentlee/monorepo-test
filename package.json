@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "version": "1.0.0",
+  "private": true
+}
